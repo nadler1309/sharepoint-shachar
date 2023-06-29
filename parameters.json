@@ -2,13 +2,13 @@
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "virtualNetworks_sharepoint_stage_westeurope_nsg_name": {
+        "virtualNetworks_vnet_westeu_name": {
             "value": null
         },
-        "networkSecurityGroups_sharepoint_db_stage_westeurope_nsg_name": {
+        "networkSecurityGroups_nsg_sharepoint_open_externalid": {
             "value": null
         },
-        "networkSecurityGroups_sharepoint_web_stage_westeurope_nsg_name": {
+        "networkSecurityGroups_nsg_postgressdb_close_externalid": {
             "value": null
         }
     }
